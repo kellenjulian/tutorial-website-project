@@ -4,7 +4,9 @@ body {
     background-size: 100%;
 }
 
-
+.title {
+    margin: auto;
+}
 .wrapper {
     margin: 25px;
     padding: 25px;
@@ -13,6 +15,14 @@ body {
 
 a:link {
     color: aqua;
+}
+
+#badLink  {
+    font-size: 0;
+}
+
+#goodLink {
+    bottom: 10px;
 }
 
 
@@ -65,6 +75,7 @@ hr {
     width: 20px;
     height: 500px;
     float: left;
+    position: relative;
     color: aqua;
     padding: 40px;
     font-size: 20px;
@@ -81,9 +92,10 @@ hr {
     width: 70%;
     font-size: 15px;
     float: right;
-    margin: auto;
+    margin: 25px;
     padding: 15px;
     background: lightseagreen;
+    position: relative;
     color: orangered;
 }
 

@@ -5,12 +5,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="tutorialWebsiteHomepage.css">
+        <link href="animate.css" rel="stylesheet">
         <title>Tutorial JavaScript Site</title>
     </head>
 <body>
     <div class="wrapper">
-   <div class="titleClass"> 
-       <h1>Welcome to the Tutorial Site!</h3>
+   <div class="titleClass animated slideInLeft"> 
+       <h1 class="animated slideInLeft">Welcome to the Tutorial Site!</h3>
 
         <hr>
         <hr>
@@ -25,7 +26,7 @@
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteHomepage.html">Homepage</a></p>
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteArraysPage.html">Arrays</a></p>
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteFunctionsPage.html">Functions</a></p>
-                <p><a href="../Tutorial-Website-Project/tutorialWebsiteObjectsPage.html">Objects</a></p>
+                <p><a href="../Tutorial-Website-Project/tutorialWebsiteConditionalsPage.html">Conditionals</a></p>
                 </nav>
                 </div>
         </header>
@@ -41,8 +42,38 @@
             <li> What can be done to the items in an array</li>
             <li> Using index numbers to reference an array item</li>
         </ol>
+        <article id="articleClass">
+                <p> An array is very useful because it can be used to create a list for many different applications!
+                 any type of data can be put into an array, and we use a number index system to acces them later. 
+                 This index system starts at [0] which can be confusing at first, easy to remember!
+                 
+                 <pre><code>
+                 var sampleArray = ['string data', true, 22];
+                 
+                     console.log([1]);
+                 // the boolean true will be printed
+                 </pre></code>
+                 
+                 We can use things like.splice() to cut out sections of the array, and replace them, by using their 
+                 index number as reference. This method returns a copy of the array that you've selected, while 
+                 substituting the item selected, with the new ones specified. Using 
+                 (index, howmany, item1...) as parameters, you can select the section of the array you want to be 
+                 spliced into and the added array items to be returned. In this way, we can use the index numbers 
+                 allowed us by the array, to better manipulate it for future usage!
+                 
+                 var arrayForSplice = ['Ice Cream', 'Taco Bell', 'Frozen Burrito', 'Coffee', 'Cashews'];
+                 
+                 <pre><code>
+                 arrayForSplice.splice(2, 2, '7-Layer Burrito', 'Spicy Tostada');
+                 // console.log(arrayForSplice) would now return:
+                  ['Ice Cream', '7-Layer Burrito', 'Spice Tostada','Coffee', 'Cashews'];
+                 </pre></code>
+                 </p>
+         </article>
+         <p><a href="https://www.w3schools.com/js/js_arrays.asp" target="blank">Here is a helpful link!</a></p>
+     
     </section>
-
+    
 
 
 
@@ -51,7 +82,7 @@
     <p><a href="../Tutorial-Website-Project/tutorialWebsiteHomepage.html">Homepage</a>
     <a href="../Tutorial-Website-Project/tutorialWebsiteArraysPage.html">Arrays</a>
     <a href="../Tutorial-Website-Project/tutorialWebsiteFunctionsPage.html">Functions</a>
-    <a href="../Tutorial-Website-Project/tutorialWebsiteObjectsPage.html">Objects</a></p>
+    <a href="../Tutorial-Website-Project/tutorialWebsiteObjectsPage.html">Conditionals</a></p>
 </footer>
 </body>
-</html>
+</html> 

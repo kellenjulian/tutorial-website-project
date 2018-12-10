@@ -4,13 +4,14 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="tutorialWebsiteHomepage.css">
+        <link rel="stylesheet" type="text/css" href="tutorialWebsiteHomePage.css">
+        <link href="animate.css" rel="stylesheet">
         <title>Tutorial JavaScript Site</title>
     </head>
 <body>
     <div class="wrapper">
-   <div class="titleClass"> 
-       <h1>Welcome to the Tutorial Site!</h3>
+   <div class="titleClass animated slideInLeft"> 
+       <h1 class="animated slideInLeft">Welcome to the Tutorial Site!</h3>
 
         <hr>
         <hr>
@@ -25,7 +26,7 @@
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteHomepage.html">Homepage</a></p>
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteArraysPage.html">Arrays</a></p>
                 <p><a href="../Tutorial-Website-Project/tutorialWebsiteFunctionsPage.html">Functions</a></p>
-                <p><a href="../Tutorial-Website-Project/tutorialWebsiteObjectsPage.html">Objects</a></p>
+                <p><a href="../Tutorial-Website-Project/tutorialWebsiteConditionalsPage.html">Conditionals</a></p>
                 </nav>
                 </div>
         </header>
@@ -33,10 +34,27 @@
     </div> 
 </div>
     <section class="sectionOne">
-        <h3>A Little About JavaScript</h3>
-        <p>I'm so glad you decided to click on my webpage! Let's get to know
-            a little bit about the basics of JavaScript!
+        <h3 class="animated bounce">Functions!</h3>
+        <p><article id="articleClass">
+                Functions are a very basic JavaScript block of code created to perform a task. When this block of code is "called" it is
+                executed. Functions can take parameters (), which can be used as local variables within the code block. Functions are 
+                useful because they allow us to execute code when something happens, like as the result of an if/else statement. With the
+                return statement, we compute a value for the function, which is returned back to whatever called the function, and the 
+                function will stop running. Functions are great because they can be reused multiple times.
+                
+                <pre><code>
+                functions addTheseNumbers(x, y) {
+                var x = 7;
+                var y = 8;
+                    console.log(x + y);
+                }
+                </pre></code>
+               
+                 </p>
+         </article>
+     
         </p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions" target="blank">Here's a helpful link!</a></p>
     </section>
 
 
@@ -47,7 +65,7 @@
     <p><a href="../Tutorial-Website-Project/tutorialWebsiteHomepage.html">Homepage</a>
     <a href="../Tutorial-Website-Project/tutorialWebsiteArraysPage.html">Arrays</a>
     <a href="../Tutorial-Website-Project/tutorialWebsiteFunctionsPage.html">Functions</a>
-    <a href="../Tutorial-Website-Project/tutorialWebsiteObjectsPage.html">Objects</a></p>
+    <a href="../Tutorial-Website-Project/tutorialWebsiteConditionalsPage.html">Conditionals</a></p>
 </footer>
 </body>
 </html>
