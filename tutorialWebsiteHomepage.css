@@ -84,8 +84,9 @@ hr {
 .sideBarLinks {
     font-size: 20px;
     z-index: 2;
-    float: left;
+    float: right;
     color: black;
+    padding: 25px;
 }
 
 .sectionOne {
@@ -109,6 +110,7 @@ hr {
     position: relative;
     font-size: 20px;
     top: 750px;
+    height: 250px;
     margin: 50px;
     padding: 25px;
     border: groove 5px yellowgreen;
@@ -116,7 +118,9 @@ hr {
 }
 
 .footerStyle a {
-    margin: 5px;
-    padding: 10px;
+    margin: auto;
+    padding: 25px;
+    position: relative;
+    float: left;
 }
 
