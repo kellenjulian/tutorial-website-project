@@ -1,7 +1,7 @@
 body {
-    background-image: url("../Tutorial-Website-Project/Tutorial-Website-Project-Assets/lls3.png");
+    background-image: url("./Tutorial-Website-Project-Assets/Screenshot_2.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; 
 }
 
 .title {
